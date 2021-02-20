@@ -1,0 +1,26 @@
+{
+  "name": "michael-gibbons-real-time-chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application.git"
+  },
+  "author": "Michael Gibbons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application/issues"
+  },
+  "homepage": "https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
