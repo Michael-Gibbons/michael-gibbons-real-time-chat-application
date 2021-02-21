@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/logo.png" class="m-auto">
   <HelloWorld msg="My first Vue app using cli"/>
 </template>
 

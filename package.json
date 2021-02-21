@@ -9,9 +9,12 @@
     "start": "node ./src/server/server"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "core-js": "^3.9.0",
     "koa": "^2.13.1",
+    "postcss": "^7.0.35",
     "socketio": "^1.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vue": "^3.0.5"
   },
   "devDependencies": {
@@ -23,6 +26,10 @@
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^7.6.0",
     "vue-loader-v16": "^16.0.0-beta.5.4"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
   },
   "eslintConfig": {
     "root": true,
