@@ -1,26 +1,43 @@
 {
   "name": "michael-gibbons-real-time-chat-application",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application.git"
-  },
-  "author": "Michael Gibbons",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application/issues"
-  },
-  "homepage": "https://github.com/Michael-Gibbons/michael-gibbons-real-time-chat-application#readme",
   "dependencies": {
-    "koa": "^2.13.1",
-    "socket.io": "^3.1.1"
+    "core-js": "^3.9.0",
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/compiler-sfc": "^3.0.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "vue-loader-v16": "^16.0.0-beta.5.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
