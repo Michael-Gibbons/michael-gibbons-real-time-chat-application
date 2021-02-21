@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node ./src/server/server"
   },
   "dependencies": {
     "core-js": "^3.9.0",
+    "koa": "^2.13.1",
+    "socketio": "^1.0.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
